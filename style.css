@@ -1,0 +1,592 @@
+
+*
+
+
+
+
+
+
+
+
+
+
+    
+         
+
+
+       
+
+            {
+
+                margin: 0 0;
+                padding: 0 0;
+                
+                
+                }
+                
+                
+                body {
+                
+                    overflow-x: hidden;
+                
+                }
+                
+                
+                #page-container {
+                
+                background-image: url("background.jpg");
+                background-attachment: fixed;
+                height: 1500px;
+                width: 100%;
+                background-size: cover; 
+                background-repeat: no-repeat;
+                background-position: center center;    
+                position: relative;
+                
+                                        
+                   }
+                
+                
+                   
+                
+                
+                
+                
+                
+                
+                
+                
+                h1 {
+                
+                color: white;
+                position: relative;
+                
+                text-align: center;
+                
+                z-index: 2;
+                }
+                
+                #big-story h1 {
+                
+                position: absolute;
+                margin-left: 280px;
+                margin-top: 50px;
+                
+                }
+                
+               
+                
+                
+                .overlay {
+                
+                background-color: black;
+                height: 100%;
+                width: 100%;
+                opacity: 0.5;
+                position: absolute;
+                
+                
+                
+                }
+                
+                .col1 {
+                
+                height: 500px; 
+                width: 100%;
+                z-index: +10;
+                display: flex;
+                justify-content: flex-end;
+                
+                }
+                
+               
+                
+                
+                #top-bar {
+                
+                width: 100%;
+                height: 400px;
+                
+                }
+                
+                
+                #col-primary {
+                    display: flex;
+                    flex-direction: column;
+                  
+                    width: 65%;
+                
+                }
+                
+              
+               
+
+                
+                
+                
+                
+                #col-secondary {
+                   
+                    
+                   
+                    width: 35%;
+                    display: flex;
+                    flex-direction: column;
+                
+                }
+
+               
+                
+                
+                #column-container {
+                
+                width: 100%;
+                display: flex;
+                
+                }
+
+               
+                
+                
+                
+                
+                #big-story {
+                
+                height: 400px;
+                width: 700px;
+                overflow: hidden;
+                float: right;
+                
+                }
+
+
+
+                
+                #row2 {
+                
+                display: flex;
+                justify-content: flex-end;   
+                
+                
+                }
+                
+                .small-story{
+                
+                    height: 400px;
+                    width: 320px;
+                    background-color: seagreen;
+                    overflow: hidden;
+                   
+                }
+                
+                .small-story:nth-child(1) {
+                
+                margin-top: 15px;
+                margin-right: 40px; 
+                
+                }
+                
+                .small-story:nth-child(2) {
+                
+                    margin-top: 15px;
+                    margin-left: 20px; 
+                    
+                    }
+                
+                .story-image {
+                
+                width: 25%;
+                height: 100px;
+                background-color: slateblue;
+                
+                }
+                
+                
+                
+                
+                .other-stories {
+                
+                width: 90%;
+                height: 100px;
+                
+                margin-bottom: 43px;
+                margin-left: 90px;
+                display: flex;
+                flex-direction: row;
+                overflow: hidden;
+                
+                }
+                
+                
+                .story-text h3{
+                
+                 color: #ABFAF7;
+                 margin-top: 20px;
+                 margin-left: 20px;
+                 text-align: left;
+                 position: relative;
+                 
+                }
+                
+                
+                .story-text {
+                
+                text-align: center;
+                
+                width: 75%;
+                }
+                
+                
+                p {
+                
+                
+                
+                }
+                
+                img {
+                
+                height: 100%;
+                width: 100%;
+                position: relative;
+                z-index: 1;
+                }
+                
+                .small-story h1 {
+                
+                position: absolute;
+                margin-left: 80px;
+                margin-top: 15px;
+                }
+                
+        
+        
+                img:hover {
+                    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                  }
+        
+        
+        
+                  #credits {
+                
+                    background-color: darkcyan;
+                    height: 500px;
+                    
+                
+                }
+                
+       
+
+        
+    @media (max-width: 500px) {
+
+
+        {
+
+            
+            
+            }
+            
+            
+            body {
+            
+               
+            
+            }
+            
+            
+            #page-container {
+            
+               height: 2300px;
+                                    
+               }
+            
+            
+               
+            
+            
+            
+            
+            
+            
+            
+            
+            h1 {
+            
+          
+            }
+            
+            #big-story h1 {
+
+
+               margin: 0 5px 0 80px;
+                
+            
+           
+            }
+            
+           
+            
+            
+            .overlay {
+            
+           
+            
+            
+            
+            }
+            
+            .col1 {
+            
+           
+            
+            }
+            
+           
+            
+            
+            #top-bar {
+            
+          height: 200px;
+          
+            
+            }
+            
+            
+            #col-primary {
+
+
+                width: 100%;
+               
+            }
+            
+          
+           
+
+            
+            
+            
+            
+            #col-secondary {
+
+
+               margin: 10px;
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+              
+            
+            }
+
+           
+            
+            
+            #column-container {
+            
+           
+            
+            }
+
+
+            #row1 {
+
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: auto auto 10px auto;
+
+            }
+           
+            
+            
+            
+            
+            #big-story {
+            
+                height: 400px;
+                width: 320px;
+                overflow: hidden;
+               
+             
+
+          
+            }
+
+
+
+            
+            #row2 {
+            
+            
+            
+            }
+            
+            .small-story{
+            
+              
+               
+            }
+            
+            .small-story:nth-child(1) {
+
+
+
+           margin: 5px 5px 5px 20px;
+
+
+
+
+
+
+
+               
+    
+                    
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+            
+            }
+            
+            .small-story:nth-child(2) {
+            
+             
+                margin: 10px 5px 5px 20px;
+
+
+                
+                }
+            
+            .story-image {
+            
+               width: 30%;
+           
+            }
+            
+            
+            
+            
+            .other-stories {
+            
+                width: 100%;
+                height: 100px;
+                
+                margin-bottom: 43px;
+                margin-left: 10px;
+                display: flex;
+                flex-direction: row;
+                overflow: hidden;
+            
+            }
+            
+            
+            .story-text h3{
+            
+        
+             
+            }
+            
+            
+            .story-text {
+            
+         
+            }
+            
+            
+            p {
+            
+            
+            
+            }
+            
+            img {
+            
+         
+            }
+            
+            .small-story h1 {
+            
+           
+            }
+            
+    
+    
+            img:hover {
+              }
+    
+    
+    
+              #credits {
+            
+                background-color: darkgoldenrod;
+              
+            
+            }
+
+
+
+             #column-container {
+
+
+             display: block;
+
+             }
+ 
+             #col-primary {
+              
+                display: flex;
+                flex-direction: column;
+
+             }
+
+             #col-secondary {
+             
+                display: block;
+
+             }
+
+             #row2 {
+
+                display: flex;
+                flex-direction: column;
+
+             }
+                
+
+             .small-story {
+
+             margin: auto;
+
+             }
+
+
+
+
+
+
+
+
+
+    }
+
+
+    
+
+    
+        
